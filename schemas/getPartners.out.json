@@ -1,0 +1,58 @@
+{
+  "type": "object",
+  "properties": {
+    "partners": {
+      "type": "array",
+      "required": true,
+      "title": "docusignPartners",
+      "properties": {
+        "partner": {
+          "type": "numeric",
+          "required": true,
+          "title": "Partner"
+        },
+        "docusignPartnerId": {
+          "type": "string",
+          "required": true,
+          "title": "DocuSign Partner Id"
+        },
+        "name": {
+          "type": "string",
+          "required": true,
+          "title": "Name"
+        },
+        "integratorKey": {
+          "type": "string",
+          "required": true,
+          "title": "Integrator Key"
+        },
+        "publicKey": {
+          "type": "string",
+          "required": true,
+          "title": "Public Key"
+        },
+        "privateKey": {
+          "type": "string",
+          "required": true,
+          "title": "Private Key"
+        },
+        "_links": {
+          "self": {
+            "href": {
+              "type": "string",
+              "required": true,
+              "title": "href"
+            }
+          },
+          "docusignPartner": {
+            "href": {
+              "type": "string",
+              "required": true,
+              "title": "href"
+            }
+          }
+        }
+      }
+    }
+  }
+}
